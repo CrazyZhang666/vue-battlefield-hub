@@ -1,0 +1,16 @@
+.bf1-view {
+    width: 50%;
+    height: 100%;
+    color: white;
+    padding: var(--bf1-view-padding);
+}
+
+img {
+    image-rendering: auto;
+}
+
+hr {
+    margin: 13px 0;
+    border: 0;
+    border-bottom: 1px solid var(--bf1-line-color);
+}

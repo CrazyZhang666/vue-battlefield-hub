@@ -1,0 +1,45 @@
+@import "@/assets/css/bf1.css";
+@import "@/assets/css/input.css";
+@import "@/assets/css/button.css";
+@import "@/assets/css/scrollbar.css";
+@import "@/assets/css/table.css";
+
+/* 全局css变量 */
+:root {
+    --bf1-line-color: rgba(255, 255, 255, 0.1);
+    --bf1-border-color: rgba(255, 255, 255, 0.2);
+
+    --bf1-view-padding: 10px 100px 20px 100px;
+}
+
+/* 全局样式 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* 设置全局字体 */
+    font-family: "FuturaMaxiBook-TC", system-ui;
+    /* 设置鼠标样式 */
+    cursor: url("/icons/cursor.cur"), default;
+    /* 控制页面上的文本是否可以被用户选择 */
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+/* 战地1优化简体中文 */
+@font-face {
+    font-family: "FuturaMaxiBook-TC";
+    src: url("/fonts/FuturaMaxiBookTC-Regular.woff2") format("woff2");
+}
+
+html,
+body,
+#app {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body {
+    background-color: #000000;
+}

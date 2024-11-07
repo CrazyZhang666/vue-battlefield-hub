@@ -1,0 +1,20 @@
+table {
+    /* 这两个参数很重要 */
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+
+    & thead {
+        & th {
+            text-align: left;
+            color: #ededed;
+        }
+    }
+
+    & tbody {
+        & td {
+            height: 1px;
+        }
+    }
+}
